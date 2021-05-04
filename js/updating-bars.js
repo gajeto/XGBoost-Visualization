@@ -1,6 +1,6 @@
 async function updatingBars() {
     // 1. Access data
-    const dataset = await d3.json('../data/results.json')
+    const dataset = await d3.json('https://raw.githubusercontent.com/gajeto/XGBoost-Visualization/main/data/results.json')
 
     // 2. Create chart dimensions
 

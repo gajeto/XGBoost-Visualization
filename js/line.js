@@ -1,7 +1,7 @@
 async function drawLineChart() {
 
     // 1. Access data
-    const pathToJSON = '../data/results.json'
+    const pathToJSON = 'https://raw.githubusercontent.com/gajeto/XGBoost-Visualization/main/data/results.json'
     let dataset = await d3.json(pathToJSON)
 
     const yAccessor = d => d.Predicted

@@ -1,5 +1,5 @@
 async function drawScatter() {
-    const pathToJSON = "../data/results.json"
+    const pathToJSON = "https://raw.githubusercontent.com/gajeto/XGBoost-Visualization/main/data/results.json"
     const dataset = await d3.json(pathToJSON)
     const xAccessor = d => d.Test
     const yAccessor = d => d.Predicted
